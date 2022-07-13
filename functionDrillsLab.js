@@ -12,12 +12,11 @@
 */
 
 //CODE HERE
+// function helloWorld() {
+//   console.log('Hello, World!')
+// }
 
-
-let greatings = function helloWorld () {
-  return "Hello, World!"
-}
-
+// helloWorld()
 ////////////////// PROBLEM 2 ////////////////////
 
 /*
@@ -25,8 +24,11 @@ let greatings = function helloWorld () {
 */
 
 //CODE HERE
+// const jsNinja = () => {
+//   console.log('I am a JavaScript ninja!')
+// }
 
-
+// jsNinja()
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
@@ -36,20 +38,34 @@ let greatings = function helloWorld () {
 
 //CODE HERE
 
+// function printName(name) {
+//   console.log(name)
+// }
+// printName("Cameron")
 
+// printName = name => {
+//   console.log(name)
+// }
+ 
+// printName("Cameron")
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called greeting that
   accepts name as its only parameter.
+
   greeting should log the string 'Hello, '
   plus the value of the name parameter.
   Ex. If Jake were passed in as the argument, the function would log 'Hello, Jake'
   Make sure to call your function and pass in an argument.
 */
 
-//CODE HERE
+//CODE HERE 
 
+// let greeting = name => {
+//   console.log(`Hello, ${name}`)
+// }
 
+// greeting('Jake')
 ////////////////// PROBLEM 5 ////////////////////
 
 /*
@@ -62,8 +78,17 @@ let greatings = function helloWorld () {
 */
 
 //CODE HERE
+// let compareNums = (num1, num2) => {
+//   if (num1 >= num2) {
+//     console.log(num1)
+//   } else {
+//     console.log(num2)
+//   }
+// }
 
-
+// compareNums(1, 2)
+// compareNums(2, 2)
+// compareNums(2, 1)
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Create a function called add that takes in two parameters 
@@ -73,7 +98,11 @@ let greatings = function helloWorld () {
 */
 
 //CODE HERE
+let add = (num1, num2) => {
+  console.log(num1 + num2)
+}
 
+add("sum", 3)
 
 ////////////////// PROBLEM 7 ////////////////////
 
